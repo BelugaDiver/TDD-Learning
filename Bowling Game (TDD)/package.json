@@ -1,0 +1,29 @@
+{
+  "name": "bowling-game",
+  "version": "1.0.0",
+  "description": "Bowling Game created using Test Driven Development",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "TDD",
+    "Test",
+    "Driven",
+    "Development",
+    "Jest",
+    "Unit",
+    "Tests"
+  ],
+  "author": "Tobi Adegunloye",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
