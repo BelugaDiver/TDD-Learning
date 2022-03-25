@@ -1,0 +1,28 @@
+{
+  "name": "fizzbuzz-kata-tdd",
+  "version": "1.0.0",
+  "description": "Fizz Buzz developed using Test Driven Development",
+  "main": "fizzbuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "FizzBuzz",
+    "Fizz",
+    "Buzz",
+    "TDD",
+    "Test",
+    "Driven",
+    "Development"
+  ],
+  "author": "Tobi Adegunloye",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}

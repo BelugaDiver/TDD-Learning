@@ -18,6 +18,7 @@
   "author": "Tobi Adegunloye",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^27.4.1",
     "babel": "^6.23.0",
     "jest": "^27.5.1"
   },
