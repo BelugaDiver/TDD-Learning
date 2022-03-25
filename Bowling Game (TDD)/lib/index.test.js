@@ -39,9 +39,11 @@ describe('Bowling Game Tests using TDD', () => {
     expect(g.score).toBe(16);
   });
   test('Test One Strike', () => {
-    g.roll(10);
+    g.roll(10); // Strike
+
     g.roll(3);
     g.roll(4);
-    rollMany(18, 1);
+    rollMany(16, 0);
+    expect(g.score).toBe(24);
   });
 });

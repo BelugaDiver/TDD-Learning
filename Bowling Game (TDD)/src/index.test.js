@@ -37,7 +37,7 @@ describe('Bowling Game Tests using TDD', () => {
    })
 
    test('Test One Strike', () => {
-      g.roll(10);
+      g.roll(10); // Strike
       g.roll(3);
       g.roll(4);
       rollMany(16, 0);
