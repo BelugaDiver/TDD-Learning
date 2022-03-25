@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1648168839642" clover="3.2.0">
-  <project timestamp="1648168839643" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4" elements="27" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+<coverage generated="1648169437178" clover="3.2.0">
+  <project timestamp="1648169437178" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4" elements="32" coveredelements="31" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
     <file name="game.js" path="C:\Users\Tobi Adegunloye\Documents\GitHub\TDD-Learning\Bowling Game (TDD)\lib\game.js">
-      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4"/>
       <line num="3" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="15" count="3" type="stmt"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="18" count="3" type="stmt"/>
-      <line num="19" count="30" type="cond" truecount="2" falsecount="0"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="22" count="29" type="stmt"/>
-      <line num="25" count="30" type="stmt"/>
-      <line num="28" count="3" type="stmt"/>
-      <line num="32" count="30" type="cond" truecount="3" falsecount="1"/>
-      <line num="33" count="30" type="stmt"/>
-      <line num="37" count="60" type="stmt"/>
-      <line num="42" count="1" type="stmt"/>
-      <line num="43" count="1" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="19" count="50" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="11" type="stmt"/>
+      <line num="21" count="11" type="stmt"/>
+      <line num="22" count="39" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="25" count="38" type="stmt"/>
+      <line num="28" count="50" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="35" count="39" type="cond" truecount="3" falsecount="1"/>
+      <line num="36" count="39" type="stmt"/>
+      <line num="40" count="91" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

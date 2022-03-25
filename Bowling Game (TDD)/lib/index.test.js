@@ -46,4 +46,8 @@ describe('Bowling Game Tests using TDD', () => {
     rollMany(16, 0);
     expect(g.score).toBe(24);
   });
+  test('Test Perfect Game', () => {
+    rollMany(12, 10);
+    expect(g.score).toBe(300);
+  });
 });

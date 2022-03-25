@@ -16,7 +16,10 @@ class Game {
     let frameIndex = 0;
 
     for (let frame = 0; frame < 10; frame++) {
-      if (this.isSpare(frameIndex)) {
+      if (this.rolls[frameIndex] == 10) {
+        total += 10 + this.rolls[frameIndex + 1] + this.rolls[frameIndex + 2];
+        frameIndex--;
+      } else if (this.isSpare(frameIndex)) {
         total += 10 + this.rolls[frameIndex + 2];
       } else {
         total += this.rolls[frameIndex] + this.rolls[frameIndex + 1];
